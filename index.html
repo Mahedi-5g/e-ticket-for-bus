@@ -125,7 +125,7 @@
             </div>
         </section>
         <!--Ticket section  -->
-        <section id="ticket" class="font-raleway border-2 rounded-3xl border-[#1DD100] bg-[#F7F8F8]">
+        <section id="ticket" class="font-raleway border-t-2 rounded-3xl border-[#1DD100] bg-[#F7F8F8]">
             <div class="ml-24 mr-24">
                 <div class="text-center mb-10 mt-14">
                     <h3 class="text-4xl font-bold">E Paribahan</h3>
@@ -147,7 +147,8 @@
                                         </div>
                                         <div class="ml-[38%] ">
                                             <button class="btn flex text-[#1DD100] bg-lime-200"><img
-                                                    src="images/seat-green.png" alt=""><span id="available-seat">40</span>Seats left
+                                                    src="images/seat-green.png" alt=""><span
+                                                    id="available-seat">40</span>Seats left
                                             </button>
                                         </div>
                                     </div>
@@ -175,7 +176,7 @@
                                     <img class="h-auto" src="images/info-devider.png" alt="">
                                 </div>
 
-                                <div class="pt-16 pl-4 font-raleway text-center">
+                                <div class="pt-32 pl-4 font-raleway text-center">
                                     <img class="ml-8" src="images/fare.png" alt="">
                                     <h2 class="text-3xl font-bold">550 Taka</h2>
                                     <p class="text-lg font-medium">Per Seat</p>
@@ -286,13 +287,13 @@
                         <div class="p-4 bg-[#F7F8F8]">
                             <div
                                 class="flex justify-between mb-2 border-b-2 border-dotted h-auto text-base font-medium">
-                                <h3>Seats <span id="seat-count" >0</span></h3>
+                                <h3>Seats <span id="seat-count">0</span></h3>
                                 <h3>Class</h3>
                                 <h3>Price</h3>
                             </div>
                             <div id="selected-seat"
                                 class=" mb-2 border-b-2 border-dotted pb-2 border-slate-400 text-base font-normal">
-                                
+
                             </div>
                             <div class="flex justify-between text-base font-medium mb-6">
                                 <p>Total</p>
@@ -310,7 +311,12 @@
                                 <h3>BDT <span id="grand-total">550</span></h3>
                             </div>
                             <div>
-                                <button class="btn btn-wide bg-[#1DD100] ml-8 text-white" onclick="my_modal_1.showModal()">Next</button>
+                                <button class="btn btn-wide bg-[#1DD100] ml-8 text-white"
+                                    onclick="my_modal_1.showModal()">Next</button>
+                                <div class="mt-4 mb-4 flex gap-6 text-base font-normal ">
+                                    <p class="border-b-2 border-dotted border-slate-300">Terms and Conditions</p>
+                                    <p class="border-b-2 border-dotted border-slate-300">Cancellation Policy</p>
+                                </div>
                                 <dialog id="my_modal_1" class="h-[500px] w-[800px]">
                                     <div class="text-center pt-24 pb-24 pr-36 pl-36 bg-amber-50">
                                         <div class="ml-48">
@@ -336,7 +342,26 @@
         </section>
 
     </main>
-    <footer></footer>
+    <footer>
+        <footer class="footer py-14 px-24 h-[320px] bg-neutral text-neutral-content text-slate-50 justify-between">
+            <aside>
+                <h2 class="text-4xl font-extrabold">E-Ticket</h2>
+                <p class="h-14 w-80 pb-12 text-lg font-normal ">P-Ticket is a digital platform to make your daily commuting better.</p>
+            </aside>
+            <!-- <nav>
+                <h6 class="footer-title">Social</h6>
+                <div class="grid grid-flow-col gap-4">
+                    <a></a>
+                    <a></a>
+                    <a></a>
+                </div>
+            </nav> -->
+            <div class="text-slate-50">
+                <p class="text-xl font-semibold pb-4">Download our app</p>
+                <img src="images/Group 104.svg" alt="">
+            </div>
+        </footer>
+    </footer>
     <script src="function.js"></script>
 </body>
 

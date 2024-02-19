@@ -19,7 +19,9 @@ for (const seat of Seats) {
 
             const selectedContainer = document.getElementById("selected-seat");
             const div = document.createElement("div");
-            div.classList.add("flex");
+            div.style.display = "flex";
+            div.style.justifyContent= "space-between"
+            // div.classList.add("flex ");
             const p1 = document.createElement("p");
             p1.innerText = e.target.innerText;
             const p2 = document.createElement("p");
